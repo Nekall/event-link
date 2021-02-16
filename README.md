@@ -3,6 +3,13 @@
 Event<link> est un site qui permet de créer des énements et de s'y inscrire, cela n'a jamais été aussi simple ! <br> 
 Event<link> fait le lien (link ;) ) entre les gens via des évenements !<br> 
 <hr> 
+Ceci est la première version du site, soyez indulgeant 🙏<br> 
+Quelques fonctionnalitées manques et devraient arriver sous peu, <br> 
+mais vous pouvez dès à présent vous créez un compre et un mail vous sera envoyé, <br> 
+pour vous souhaitez la bienvenue; Vous pouvez créer un évenement et participer à <br> 
+autant d'évenements que vous le désirez. <br> 
+<br> 
+<hr> 
 Informations techniques:<br> 
 <br> 
 * Ruby version 2.7.1<br> 
