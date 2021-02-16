@@ -21,22 +21,22 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-Pour nous rejoindre rien de plus simple 2 choix s'offre à toi,
-
-  1- En version local
-    bundle install
-    rails db:reset
-    rails db:create
-    rails db:migrate
-    rails db:migrate:status
-    rails db:seed
-    rails server
-    http://localhost:3000
-    
-    Voila amuse toi :)
-    
-  2- Version en-ligne
-    https://event--link.herokuapp.com/
-    
-    Voila amuse toi :)
+<br>
+Pour nous rejoindre rien de plus simple 2 choix s'offre à toi,<br>
+<br>
+  1- En version local<br> 
+    bundle install<br>
+    rails db:reset<br>
+    rails db:create<br>
+    rails db:migrate<br>
+    rails db:migrate:status<br>
+    rails db:seed<br>
+    rails server<br>
+    http://localhost:3000<br>
+    <br>
+    Voila amuse toi :)<br>
+    <br>
+  2- Version en-ligne<br>
+    https://event--link.herokuapp.com/<br>
+    <br>
+    Voila amuse toi :)<br>
