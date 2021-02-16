@@ -1,26 +1,12 @@
 <img src="https://i.goopics.net/WY0D3.png" alt="">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version 2.7.1
-* Rails version 5.2.3
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Event<link> est un site qui permet de créer des énements et de s'y inscrire, cela n'a jamais été aussi simple ! <br> 
+Event<link> fait le lien (link ;) ) entre les gens via des évenements !<br> 
+<hr> 
+Informations techniques:<br> 
+<br> 
+* Ruby version 2.7.1<br> 
+* Rails version 5.2.3<br> 
 <br>
 Pour nous rejoindre rien de plus simple 2 choix s'offre à toi,<br>
 <br>
