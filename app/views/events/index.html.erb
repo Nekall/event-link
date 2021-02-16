@@ -1,0 +1,29 @@
+<div class="jumbotron jumbotron-fluid" style="background-image: url(https://images.unsplash.com/photo-1508997449629-303059a039c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); background-size: 100%; background-position: 30% 70%;">
+  <div class="container">
+    <h1 class="display-4"></h1>
+    <p class="lead"></p>
+  </div>
+</div>
+
+<section class="row-section">
+  <div class="container">
+    <div class="col-md-10 offset-md-1 row-block">
+      <ul id="sortable">
+        <% Event.all.each do |event| %>
+          <li><div class="media">
+          <div class="media-left align-self-center">
+              <img class="rounded-circle" src="https://randomuser.me/api/portraits/women/50.jpg">
+          </div>
+          <div class="media-body">
+              <h4><%= User.find(Attendance.find(event.id).user_id).first_name %> Le <%= event.start_date %> à <%= event.location %> </h4>
+              <p><%= event.title %> vous coutera <%= event.price %> <span class="fa fa-euro-sign"></span> </p>
+          </div>
+          <div class="media-right align-self-center">
+              <a href="<%= event_path(event.id) %>" class="btn btn-default">Plus d'info ?</a>
+          </div>
+          </div></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>

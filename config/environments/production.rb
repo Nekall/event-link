@@ -94,4 +94,5 @@ Rails.application.configure do
 
   # Envoi le mail de bienvenu
   config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { :host => 'https://event-link.herokuapp.com/' }
 end

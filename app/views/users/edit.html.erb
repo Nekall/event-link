@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <h1> Edit de ton profil</h1>
+
+      <%= form_for @user do |f| %>
+        <div class="form-group">
+          <label>Ton prénom:</label>
+          <%= f.text_field :first_name, class: 'form-control' %>
+        </div>
+        <div class="form-group">
+          <label>Ton nom:</label>
+          <%= f.text_field :last_name, class: 'form-control' %>
+        </div>
+        <div class="form-group">
+          <label>Description de ta personne: </label>
+          <%= f.text_area :description, class: 'form-control' %>
+        </div>
+        <!--
+        <div class="form-group">
+          <label>Ajoute une photo:</label>
+          <#%= f.text_field :link_photo, class: 'form-control' %>
+        </div>
+        -->
+        <div class="form-group">
+          <button type="submit" class="btn btn-secondary">Modifier</button>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
