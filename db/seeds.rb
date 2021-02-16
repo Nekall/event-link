@@ -3,12 +3,12 @@ Event.destroy_all
 Attendance.destroy_all
 
 #crée la base de données
-5.times do
+1.times do
   puts "creation user"
   user = User.create(
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
-    email: Faker::Internet.email,
+    email: "yopmail@yopmail.com",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
     pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
     Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
