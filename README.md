@@ -30,6 +30,6 @@ Pour nous rejoindre rien de plus simple 2 choix s'offre à toi,<br>
     Voila amuse toi :)<br>
     <br>
   2- Version en-ligne<br>
-    https://event--link.herokuapp.com/<br>
+<a target="_blank" href="https://event--link.herokuapp.com/">https://event--link.herokuapp.com/</a><br>
     <br>
-    Voila amuse toi :)<br>
+    Voila amuse-toi bien :)<br>
